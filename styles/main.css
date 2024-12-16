@@ -119,7 +119,28 @@ section ul {
 section li {
 	padding-bottom: .35em;
 }
+/* General table styling */
+table {
+  border-collapse: collapse; 
+  width: 80%; /* Adjust width as needed */
+  margin: 0 auto; /* Centers the table */
+}
 
+th, td { 
+  border: 1px solid #800000;
+  text-align: left; /* Adjust alignment */
+  padding: 8px;
+}
+
+/* Styling for the heading above the table (if it exists) */
+h2 { 
+  color: #800000;
+}
+
+/* Styling to highlight specific rows */
+tr:nth-child(even) { 
+  background-color: #f0f0f0; /* Example */
+}
 /* the styles for the article */
 article {
 	padding: .5em 0;
